@@ -1,8 +1,13 @@
 # RAG (Retrieval-Augmented Generation)
 
+This repository demonstrates a complete, practical implementation of a Retrieval-Augmented Generation (RAG) pipeline using LangChain, Qdrant, and modern embedding models. It shows how to load PDF documents, split them into semantic chunks, generate vector embeddings, store them in a vector database, and retrieve relevant information to answer user questions using AI.
+
+The project includes both indexing and retrieval workflows, supporting OpenAI and local embedding models, and provides optimized examples for CPU and GPU environments. This serves as a hands-on guide for building AI-powered document search systems, knowledge assistants, and chat-with-your-data applications.
+
 RAG is a technique used in AI to allow language models to access and use external data, such as documents, files, or databases. Instead of relying only on the model’s internal training knowledge, RAG retrieves relevant information from external sources and uses it to generate more accurate and context-aware responses.
 
 When using RAG, the document processing is typically divided into two main phases:
+
 
 ## Phase 1: Indexing Phase
 
