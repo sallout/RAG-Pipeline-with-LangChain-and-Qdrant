@@ -6,6 +6,7 @@ The project includes both indexing and retrieval workflows, supporting OpenAI an
 
 RAG is a technique used in AI to allow language models to access and use external data, such as documents, files, or databases. Instead of relying only on the model’s internal training knowledge, RAG retrieves relevant information from external sources and uses it to generate more accurate and context-aware responses.
 
+![RAG Pipeline](./RagExample/images/rag_pipline.png)
 
 ## Features
 
@@ -39,7 +40,7 @@ This phase prepares the documents so they can be efficiently searched and retrie
 - **Storing vectors in a vector database:**  
   The generated vectors are stored in a vector database (such as FAISS, Pinecone, or Chroma). This allows fast similarity search to find the most relevant chunks when needed.
 
-![RAG Pipeline](./RagExample/images/rag_pipline.png)
+
 
 
 
