@@ -17,7 +17,7 @@ This phase prepares the documents so they can be efficiently searched and retrie
 - **Storing vectors in a vector database:**  
   The generated vectors are stored in a vector database (such as FAISS, Pinecone, or Chroma). This allows fast similarity search to find the most relevant chunks when needed.
 
-<img src="images/rag_pipline.png" width="600">
+![RAG Pipeline](images/rag_pipline.png)
 
 
 
