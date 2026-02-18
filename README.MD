@@ -6,6 +6,23 @@ The project includes both indexing and retrieval workflows, supporting OpenAI an
 
 RAG is a technique used in AI to allow language models to access and use external data, such as documents, files, or databases. Instead of relying only on the model’s internal training knowledge, RAG retrieves relevant information from external sources and uses it to generate more accurate and context-aware responses.
 
+
+## Features
+
+- Complete end-to-end RAG pipeline implementation
+- PDF document loading and processing
+- Automatic document chunking using LangChain text splitters
+- Vector embedding generation using OpenAI and HuggingFace models
+- Vector storage and similarity search using Qdrant vector database
+- Fast semantic search for accurate information retrieval
+- Support for both cloud-based (OpenAI) and local embedding models
+- GPU-optimized indexing for high-performance processing
+- Interactive query system for real-time question answering
+- Modular and production-ready architecture
+- Compatible with custom documents and knowledge bases
+- Easy integration with local or cloud LLMs
+
+
 When using RAG, the document processing is typically divided into two main phases:
 
 
